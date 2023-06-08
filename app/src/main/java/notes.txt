@@ -1,0 +1,16 @@
+----------------------------------------------------------------------------------------------------
+1. `android:ellipsize`: Được sử dụng để chỉ định cách hiển thị văn bản khi nó không thể được
+hiển thị hoàn toàn trong TextView. Giá trị "marquee" chỉ định rằng văn bản sẽ hiển thị dưới dạng
+chuyển động marquee (di chuyển qua từng dòng) khi nó không thể được hiển thị hoàn toàn.
+
+2. `android:marqueeRepeatLimit`: Xác định số lần lặp lại của chuyển động marquee khi văn bản được cắt.
+Giá trị "marquee_forever" chỉ định rằng chuyển động marquee sẽ lặp lại vô hạn.
+
+3. `android:padding`: Xác định khoảng cách (padding) xung quanh nội dung của TextView.
+ Trong ví dụ này, giá trị "8dp" chỉ định rằng có một khoảng cách padding 8dp xung quanh văn bản.
+
+4. `android:scrollHorizontally`: Xác định liệu văn bản có được cuộn ngang hay không.
+Giá trị "true" chỉ định rằng văn bản sẽ được cuộn ngang nếu nội dung vượt quá kích thước TextView.
+
+5. `android:singleLine`: Xác định liệu văn bản chỉ được hiển thị trên một dòng duy nhất hay không.
+Giá trị "true" chỉ định rằng văn bản sẽ chỉ được hiển thị trên một dòng duy nhất.
